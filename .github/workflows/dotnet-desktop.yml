@@ -77,4 +77,5 @@ jobs:
     - uses: ncipollo/release-action@v1
       with:
         artifacts: "Disable-Windows-Defender/bin/Debug/Disable-Windows-Defender.exe"
+        tag: latest
         token: ${{ secrets.GITHUB_TOKEN }}
